@@ -27,5 +27,5 @@ zuul:
 
 spring:
   application:
-    name: zuul-server
+    name: zuul-gateway
 
