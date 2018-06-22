@@ -28,4 +28,13 @@ zuul:
 spring:
   application:
     name: zuul-gateway
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+logging:
+  file: zuul-console.log
